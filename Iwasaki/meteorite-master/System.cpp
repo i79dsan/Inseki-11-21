@@ -69,7 +69,7 @@ void System::Init(Vector2 pos, double size, int health) {
 	hasInitialized = true;
 	CreateStageMeteors();
 }
-
+//
 void System::LoadStage() {
 	Time::Update();
 	limitTime = 60.0;
